@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+     overflow-x: hidden;
+  }
+  #miku{
+    width:10%;
+    height: auto;
+position: absolute;
+top: 55%;
+left: -10%;
+    
+ 
+
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 6%;
+  }
+  
+img{
+    margin-top: 20px;
+margin-bottom: 55%;
+margin-left: 45%;
+
+}
+.home-preview{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    background-color: azure;
+    
+}
+.home-preview h1{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    position: absolute;
+    transition: 1s ease;
+    left: 730px;
+    top:450px;
+    border-radius: 30%;
+    z-index: -1;
+}
+a:hover{
+    color: red;    
+   
+}
